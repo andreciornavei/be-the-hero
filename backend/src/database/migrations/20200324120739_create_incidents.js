@@ -11,6 +11,6 @@ exports.up = async function(knex) {
   };
   
   exports.down = async function(knex) {
-    await knex.schema.dropTable('indicents')
+    await knex.schema.dropTable('incidents')
   };
   
